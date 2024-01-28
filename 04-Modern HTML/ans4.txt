@@ -1,0 +1,20 @@
+3 Ways to Improve Accessibility of HTML:
+Semantic HTML:
+
+Use the most appropriate HTML elements for their intended content.
+This helps screen readers and other assistive technologies understand the structure of your page and navigate it effectively.
+Examples:
+Use <h1> to <h6> elements for headings.
+Use <p> elements for paragraphs.
+Use <ul> or <ol> elements for lists.
+Use <a> elements for links.
+Provide Alternative Text for Images:
+
+Use the alt attribute on <img> tags to describe the content of the image for users who cannot see it.
+This is especially important for visually impaired users who rely on screen readers.
+The alt text should be concise and informative, but not too long.
+Use Headings Correctly:
+
+Headings help users understand the structure and organization of your content.
+Use a logical hierarchy of headings, starting with <h1> for the main title and progressing through <h2>, <h3>, etc. for subheadings.
+This makes your content easier to scan and navigate, especially for users with cognitive disabilities.

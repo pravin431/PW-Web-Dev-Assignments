@@ -1,0 +1,33 @@
+<!-- Styles are applied in the order of specificity, with inline styles having the highest priority, followed by internal and then external styles. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of CSS</title>
+<style>
+    #internal{
+        color: blue;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="internal">
+    <p>This is a div with internal css styling.</p>
+  </div>
+
+    <div id="inline" style="color: green; font-style: italic; font-weight: 600;" >
+    <p>This is a div with inline css styling.</p>
+
+   <div id="external" class="external-styling">
+    <p>This is a div with external css styling.</p>
+   </div>
+</div>
+</body>
+</html>

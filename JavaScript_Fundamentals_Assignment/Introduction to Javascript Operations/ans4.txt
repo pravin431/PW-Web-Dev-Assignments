@@ -1,0 +1,33 @@
+Precedence and Associativity are concepts that govern the order in which operators are evaluated in an expression. Understanding these concepts is crucial because they determine the result of expressions and play a significant role in avoiding ambiguity.
+
+1. Precedence:
+Precedence refers to the priority or order of evaluation of operators in an expression.
+Operators with higher precedence are evaluated first.
+Example:
+
+javascript
+  
+let result = 5 + 3 * 2;
+console.log(result);  // Result: 11 (Multiplication has higher precedence)
+Common Operator Precedence:
+
+Grouping: ()
+Increment/Decrement: ++, --
+Unary operators: +, -, !
+Multiplication/Division/Modulus: *, /, %
+Addition/Subtraction: +, -
+Relational operators: <, >, <=, >=
+Equality operators: ==, ===, !=, !==
+Logical AND: &&
+Logical OR: ||
+Conditional (Ternary) Operator: ? :
+Assignment operators: =, +=, -=, etc.
+2. Associativity:
+Associativity defines the order in which operators with the same precedence are evaluated.
+It can be left-to-right (left associative) or right-to-left (right associative).
+Example:
+
+javascript
+  
+let result = 5 + 3 - 2;
+console.log(result);  // Result: 6 (Left-to-right associativity)

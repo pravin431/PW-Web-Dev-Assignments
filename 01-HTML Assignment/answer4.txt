@@ -1,0 +1,28 @@
+HTML Tags:
+HTML (Hypertext Markup Language) uses tags to define elements on a web page. Tags are structural or semantic markers that tell the browser how to interpret and display the content. Tags are enclosed in angle brackets (< and >). Most tags come in pairs, with an opening tag and a closing tag.
+
+For example:
+
+html
+Copy code
+<p>This is a paragraph.</p>
+In this example:
+
+<p> is the opening tag.
+</p> is the closing tag.
+The content "This is a paragraph." is the text within the paragraph element.
+HTML Elements:
+An HTML element consists of an opening tag, content, and a closing tag. The combination of the opening tag, content, and closing tag forms a complete HTML element. Elements can be as simple as a paragraph or as complex as an entire page.
+
+For example:
+
+html
+Copy code
+<a href="https://www.example.com">Visit Example</a>
+In this example:
+
+<a> is the opening tag.
+</a> is the closing tag.
+href="https://www.example.com" is an attribute of the a element.
+The content "Visit Example" is the text within the anchor element.
+The entire structure <a href="https://www.example.com">Visit Example</a> is the HTML element.

@@ -1,0 +1,21 @@
+
+HTML Entities
+HTML entities are a way to represent special characters in HTML. They are used to display characters that would otherwise be interpreted as HTML code, and invisible characters like non-breaking spaces.
+
+Here are 5 commonly used HTML entities:
+
+&amp;: This entity represents the ampersand symbol (&). It is used because the ampersand is also used to introduce HTML entities, so it needs to be escaped if you want to display it literally.
+&lt;: This entity represents the less-than sign (<). It is used to escape the less-than sign so that it doesn't get interpreted as the start of an HTML tag.
+&gt;: This entity represents the greater-than sign (>). It is used to escape the greater-than sign so that it doesn't get interpreted as the end of an HTML tag.
+&nbsp;: This entity represents a non-breaking space. It is used to insert a space that won't be broken at the end of a line.
+&quot;: This entity represents a double quote ("). It is used to escape double quotes so that they can be used inside attribute values.
+Here are some additional commonly used HTML entities:
+
+&copy;: Copyright symbol (©)
+&reg;: Registered trademark symbol (®)
+&euro;: Euro symbol (€)
+&trade;: Trademark symbol (™)
+&apos;: Single quote (')
+&cent;: Cent sign (¢)
+&emsp;: Em space (four spaces)
+&ensp;: En space (two spaces)

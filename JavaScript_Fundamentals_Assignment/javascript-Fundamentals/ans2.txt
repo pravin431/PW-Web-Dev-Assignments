@@ -1,0 +1,93 @@
+
+HTML (HyperText Markup Language):
+
+HTML is a markup language used to structure content on the web. It defines the structure and presentation of web content, such as text, images, links, and other elements.
+HTML provides the basic building blocks for creating web pages.
+JavaScript:
+
+JavaScript is a programming language used for creating dynamic and interactive content on the web. It allows for the manipulation of HTML and CSS, handling user interactions, and performing asynchronous operations.
+2. Role:
+HTML:
+
+HTML is responsible for defining the structure and layout of a web page. It includes elements like headings, paragraphs, lists, images, forms, and links.
+Example:
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Page</title>
+</head>
+<body>
+  <h1>Welcome to my website!</h1>
+  <p>This is a paragraph of text.</p>
+  <img src="image.jpg" alt="An example image">
+</body>
+</html>
+JavaScript:
+
+JavaScript is responsible for adding interactivity to a web page. It can respond to user actions, manipulate the DOM, and communicate with servers to fetch and update data.
+Example:
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Web Page</title>
+</head>
+<body>
+  <h1 id="greeting">Hello, World!</h1>
+  <button onclick="changeGreeting()">Change Greeting</button>
+
+  <script>
+    function changeGreeting() {
+      document.getElementById("greeting").innerHTML = "New Greeting!";
+    }
+  </script>
+</body>
+</html>
+3. Syntax:
+HTML:
+
+HTML uses a tag-based syntax to define elements and their attributes. Tags are enclosed in angle brackets.
+Example:
+html
+Copy code
+<p>This is a paragraph of text.</p>
+JavaScript:
+
+JavaScript uses a more traditional programming language syntax with statements, variables, and functions.
+Example:
+javascript
+Copy code
+function greet(name) {
+  alert('Hello, ' + name + '!');
+}
+
+greet('John');
+4. Execution:
+HTML:
+
+HTML is parsed and rendered by the browser to display the static content of a web page. It does not involve programmatic logic or dynamic behavior.
+JavaScript:
+
+JavaScript code is executed by the browser's JavaScript engine. It adds interactivity to the web page by responding to events, modifying the DOM, and making asynchronous requests.
+5. Inclusion in Documents:
+HTML:
+
+HTML is directly written within HTML documents and is responsible for structuring the content of the page.
+JavaScript:
+
+JavaScript code can be embedded directly in HTML using <script> tags or included from external files. It enhances the functionality of the page.
+6. Examples of Use Cases:
+HTML:
+
+Defining the structure and content of a webpage.
+Creating forms for user input.
+Displaying images, videos, and other media.
+JavaScript:
+
+Validating and processing user input in forms.
+Implementing interactive features like sliders, dropdowns, and accordions.
+Making asynchronous requests to update content without refreshing the page.
+Performing calculations and data manipulations on the client side.

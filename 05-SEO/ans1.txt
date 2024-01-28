@@ -1,0 +1,8 @@
+SEO stands for Search Engine Optimization. It is the practice of increasing the quantity and quality of traffic to your website through organic search engine results. In simpler terms, it's the process of making your website more visible in search engine results pages (SERPs) like Google.
+
+How does SEO work?
+
+Search engines like Google use complex algorithms to rank websites based on various factors. These factors can be broadly categorized into two main categories:
+
+On-page factors: These are factors that you can control directly on your website, such as the content, title tags, meta descriptions, and image alt text.
+Off-page factors: These are factors that you cannot control directly, such as backlinks from other websites and social media mentions.
