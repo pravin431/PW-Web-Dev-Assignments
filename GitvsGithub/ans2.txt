@@ -1,0 +1,12 @@
+The Git workflow involves three main components: the working directory, the staging area (index), and the repository.
+
+Working Directory:
+
+The working directory is where you create, modify, and organize your files. It represents the current state of your project.
+Staging Area (Index):
+
+The staging area is a buffer between the working directory and the repository. It allows you to selectively choose which changes you want to include in the next commit. You stage changes using the git add command.
+Repository:
+
+The repository (repo) is where Git permanently stores the committed versions of your files. It consists of two main parts: the local repository on your machine and, if applicable, a remote repository on a server.
+Commits are snapshots of the files at a specific point in time, and they are created using the git commit command. Commits in the repository form a chronological history.
