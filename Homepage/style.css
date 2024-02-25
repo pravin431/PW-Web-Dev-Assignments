@@ -1,0 +1,149 @@
+/* Existing CSS styles */
+.body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-image {
+    background-image: url('./Assets/background-image.png'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.content-wrapper{
+    display: flex;
+    flex: 1;
+}
+.content-left, 
+.content-right {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+.hero img{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1 { margin: 0 auto;
+    font-size: 5rem;
+}
+.sub-title p{
+    font-size: 2rem;
+}
+.search-icon{
+    margin-top: 1rem;
+}
+.services-btn {
+    background-color: rgb(234, 68, 129); 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.apply-btn {
+    background-color: rgb(234, 68, 129); 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.loan-calci {
+    background-color: white;
+    color: rgb(234, 68, 129);
+    padding: 10px 20px;
+    border: 2px solid rgb(234, 68, 129);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.social{ margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.social-item{
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.car-circle {
+    text-align: center;
+}
+.car {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.car img {
+    margin-left: 34rem;
+    padding-right: 0.8rem;
+}
+
+.house{
+    text-align: center;
+}
+.house-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 25rem;
+}
+.house-image img{
+    padding-right: 0.8rem;
+}
